@@ -13,7 +13,15 @@ public ModeloSimulacion(){
 private ArrayList<SerVivo> seresSimulacion;
 
 public ArrayList<SerVivo> darSeresSimulacion(){
-return seresSimulacion;
+
+ArrayList<SerVivo> serSimulable = new ArrayList<SerVivo>();
+
+for(int i = 0; i < seresSimulacion.size(); i++){
+  if(serSimulable instanceof Dinosaurio){
+    serSimulable.add(seresSimulacion.get(i));
+  }
+
+}
 }
 
 public void modificarSeresSimulacion(ArrayList<SerVivo> seresSimulacion){
