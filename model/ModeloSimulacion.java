@@ -17,7 +17,7 @@ public ArrayList<SerVivo> darSeresSimulacion(){
 ArrayList<SerVivo> serSimulable = new ArrayList<SerVivo>();
 
 for(int i = 0; i < seresSimulacion.size(); i++){
-  if(serSimulable instanceof Dinosaurio){
+  if(serSimulable instanceof Simulable){
     serSimulable.add(seresSimulacion.get(i));
   }
 
