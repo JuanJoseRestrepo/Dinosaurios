@@ -19,7 +19,7 @@ if(tipo == HERBIVORO){
 
   for(int i = 0; i < servivo.size(); i++){
     if(servivo.get(i) instanceof Planta && distancia(darPosX() , darPosY() , servivo.get(i).darPosX() , servivo.get(i).darPosY()) < 100 ){
-      comer();
+      comer((Comestible) servivo.get(i));
     }
   }
 
