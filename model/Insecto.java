@@ -1,9 +1,9 @@
 package model;
 
-public class Insecto{
+public class Insecto extends SerVivo{
 
 
-public insecto(int posX, int posY,double calorias){
+public Insecto(int posX, int posY,double calorias){
 super(posX,posY,calorias);
 }
 

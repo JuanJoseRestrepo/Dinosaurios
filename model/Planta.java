@@ -15,7 +15,15 @@ public void accion(ArrayList<SerVivo> SerVivo){
   		hacerFotosintesis();
   	}
 
-  	public void hacerFotosintesis(){
-  		modificarCalorias(2*darCalorias());
+  	public double hacerFotosintesis(){
+      double foto = 0.0;
+  	 foto = 2*darCalorias();
+     return foto;
   	}
+
+    public void hacerFotosintesisFinal(){
+
+      modificarCalorias(hacerFotosintesis());
+
+    }
 }

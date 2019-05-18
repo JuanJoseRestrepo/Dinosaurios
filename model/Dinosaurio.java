@@ -43,7 +43,7 @@ modificarCalorias(darCalorias() + p.darCalorias());
 
 public double distancia(int posX, int posY, int posXPlanta, int posYPlanta){
 
-int calculo = 0.0;
+double calculo = 0.0;
 
 calculo = (posX - posXPlanta) * (posY - posYPlanta);
 

@@ -28,7 +28,7 @@ public void modificarPosX(int posX){
   this.posX = posX;
 }
 
-public int darCalorias(){
+public double darCalorias(){
   return calorias;
 }
 

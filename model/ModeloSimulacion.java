@@ -1,6 +1,6 @@
 package model;
 
-import java.uril.ArrayList;
+import java.util.ArrayList;
 
 public class ModeloSimulacion{
 
@@ -22,6 +22,7 @@ for(int i = 0; i < seresSimulacion.size(); i++){
   }
 
 }
+return serSimulable;
 }
 
 public void modificarSeresSimulacion(ArrayList<SerVivo> seresSimulacion){
